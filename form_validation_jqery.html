@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Validation With Jquery</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="form_validation_jqery.js"></script>
+  <link rel="stylesheet" href="form_validation_jqery.css"/>
+</head>
+<body>
+  <div class="container">
+    <h2>Registration</h2>
+  
+    <form action="javascript:void(0);">
+      <label for="name" id="nameLabel">Name</label>
+      <input type="text" name="name" id="name" placeholder="Riya Kapuria">
+
+      <label for="phnumber" id="telephoneLabel">Phone Number</label>
+      <input type="text" name="phnumber" id="phnumber" placeholder="9876543210">
+
+      <label for="email" id="emailLabel">Email</label>
+      <input type="email" name="email" id="email" placeholder="riya@gmail.com">
+
+      <label for="password" id="passwordLable">Password</label>
+      <input type="password" min="5" name="password" id="password" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;">
+
+      <button type="submit">Register</button>
+    </form>
+  </div>
+</body>
+</html>
